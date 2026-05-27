@@ -9,6 +9,8 @@ app/
   globals.css
   layout.tsx
   page.tsx
+  privacy/
+    page.tsx
   robots.ts
   sitemap.ts
 components/
@@ -59,8 +61,8 @@ Update [lib/site.ts](lib/site.ts):
 
 - `siteUrl`: replace with your final Vercel or custom domain.
 - `playStoreUrl`: replace `#` with your Google Play Store URL.
-- `privacyPolicyUrl`: replace `#` with your privacy policy URL.
-- `supportEmail`: replace `support@example.com` with your real support email.
+- `privacyPolicyUrl`: defaults to `/privacy`; after deployment, use the full deployed URL in Google Play Console, for example `https://your-domain.com/privacy`.
+- `supportEmail`: replace `ranulakmal@gmail.com` if your support email changes.
 - `screenshots`: add real screenshot paths after placing images in `public/images/screenshots/`.
 
 Example:

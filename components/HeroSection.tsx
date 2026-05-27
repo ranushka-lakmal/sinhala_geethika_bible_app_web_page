@@ -1,11 +1,11 @@
 import Image from "next/image";
-import { BookOpen, Heart, Search, Sparkles } from "lucide-react";
+import { BookOpen, Heart, Quote, Search } from "lucide-react";
 import { PlayStoreButton } from "@/components/PlayStoreButton";
 import { siteConfig } from "@/lib/site";
 
 const highlights = [
   { label: "Sinhala Hymns", icon: BookOpen },
-  { label: "Daily Bible Quotes", icon: Sparkles },
+  { label: "Daily Bible Quotes", icon: Quote },
   { label: "Favourites", icon: Heart },
   { label: "Singlish Search", icon: Search }
 ];
@@ -27,7 +27,6 @@ export function HeroSection() {
       <div className="section-shell relative z-10">
         <div className="max-w-3xl">
           <p className="inline-flex items-center gap-2 rounded-full border border-white/18 bg-white/10 px-4 py-2 text-sm font-medium text-[#ffe5aa] backdrop-blur-md">
-            <Sparkles className="size-4" aria-hidden="true" />
             {siteConfig.appNameEnglish}
           </p>
           <h1 className="mt-7 font-sinhala text-4xl font-bold leading-tight text-white sm:text-6xl lg:text-7xl">

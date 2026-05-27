@@ -1,16 +1,16 @@
 import {
   BookOpen,
+  BookText,
   Heart,
   ListMusic,
   Quote,
-  Search,
-  Sparkles
+  Search
 } from "lucide-react";
 import { FeatureCard } from "@/components/FeatureCard";
 import { SectionHeading } from "@/components/SectionHeading";
 import { features } from "@/lib/site";
 
-const icons = [ListMusic, BookOpen, Quote, Heart, Search, Sparkles];
+const icons = [ListMusic, BookOpen, Quote, Heart, Search, BookText];
 const tones = [
   "from-[#23356b] to-[#6d63c7]",
   "from-[#0f766e] to-[#5bb8a7]",

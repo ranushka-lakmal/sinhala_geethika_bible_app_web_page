@@ -4,8 +4,8 @@ export const siteConfig = {
   appNameSinglish: "Geethika Saha Bible Pada",
   siteUrl: "https://geethika-bible-verses.vercel.app", // TODO: Replace with your final Vercel/custom domain.
   playStoreUrl: "#", // TODO: Replace with your real Google Play Store app URL.
-  privacyPolicyUrl: "#", // TODO: Replace with your hosted Privacy Policy URL.
-  supportEmail: "support@example.com", // TODO: Replace with your real support email address.
+  privacyPolicyUrl: "/privacy", // TODO: For Play Console, use the full deployed URL, for example "https://your-domain.com/privacy".
+  supportEmail: "ranulakmal@gmail.com", // TODO: Replace with your real support email address.
   heroImage: "/images/geethika-hero.png",
   screenshots: {
     // TODO: Replace these null values with real image paths such as "/images/screenshots/home.png".

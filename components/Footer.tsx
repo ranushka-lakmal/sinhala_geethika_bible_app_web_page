@@ -21,7 +21,12 @@ export function Footer() {
           <a href={siteConfig.playStoreUrl} className="hover:text-[#f3c56d]">
             Google Play
           </a>
-          <a href={siteConfig.privacyPolicyUrl} className="hover:text-[#f3c56d]">
+          <a
+            href={siteConfig.privacyPolicyUrl}
+            target="_blank"
+            rel="noreferrer"
+            className="hover:text-[#f3c56d]"
+          >
             Privacy Policy
           </a>
           <a
