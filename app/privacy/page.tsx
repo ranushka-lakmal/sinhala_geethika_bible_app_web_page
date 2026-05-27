@@ -115,7 +115,7 @@ export default function PrivacyPolicyPage() {
       </section>
 
       <section className="px-4 py-14 sm:px-6 lg:px-8">
-        <div className="section-shell grid gap-6 lg:grid-cols-[0.72fr_0.28fr] lg:items-start">
+        <div className="section-shell">
           <article className="glass-panel rounded-lg p-6 sm:p-8 lg:p-10">
             <div className="rounded-lg border border-[#f3c56d]/35 bg-[#fff8e8] p-5">
               <div className="flex gap-3">
@@ -166,18 +166,6 @@ export default function PrivacyPolicyPage() {
               </section>
             </div>
           </article>
-
-          <aside className="glass-panel rounded-lg p-6 lg:sticky lg:top-6">
-            <h2 className="text-lg font-semibold text-[#14213d]">
-              Play Store Checklist
-            </h2>
-            <ul className="mt-4 space-y-3 text-sm leading-6 text-slate-600">
-              <li>Use this privacy page URL in Play Console.</li>
-              <li>Keep app Data safety answers consistent with this policy.</li>
-              <li>Add a privacy policy link inside the Android app.</li>
-              <li>Update this page if the app starts collecting or sharing data.</li>
-            </ul>
-          </aside>
         </div>
       </section>
     </main>
