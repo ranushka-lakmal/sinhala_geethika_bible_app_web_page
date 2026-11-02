@@ -18,7 +18,13 @@ export function Footer() {
           aria-label="Footer"
           className="flex flex-wrap items-center gap-x-5 gap-y-3 text-sm text-slate-200"
         >
-          <a href={siteConfig.playStoreUrl} className="hover:text-[#f3c56d]">
+          <a
+            href={siteConfig.playStoreUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Google Play (opens in a new tab)"
+            className="hover:text-[#f3c56d]"
+          >
             Google Play
           </a>
           <a

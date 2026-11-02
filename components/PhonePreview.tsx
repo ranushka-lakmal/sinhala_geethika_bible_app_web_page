@@ -26,7 +26,7 @@ export function PhonePreview({
                 alt={`${title} screenshot`}
                 fill
                 sizes="240px"
-                className="object-cover"
+                className="object-contain"
               />
             ) : (
               <MockScreen label={label} accent={accent} />

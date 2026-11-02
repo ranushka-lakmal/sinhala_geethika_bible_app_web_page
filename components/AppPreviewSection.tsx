@@ -9,7 +9,7 @@ export function AppPreviewSection() {
         <SectionHeading
           eyebrow="App Preview"
           title="Clean screens for reading, searching, and saving"
-          description="The current mockups are ready placeholders for your real app screenshots. Add final screenshots to the public folder and update the paths in the site config."
+          description="Explore real app screenshots from our Google Play listing, including the home screen, hymns, lyrics, and community prayer requests."
         />
 
         <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">

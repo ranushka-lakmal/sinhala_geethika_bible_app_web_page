@@ -59,6 +59,10 @@ export function HeroSection() {
             </a>
           </div>
 
+          <p className="mt-4 text-sm text-slate-200">
+            Available on Google Play for Android · Contains ads
+          </p>
+
           <div className="mt-10 grid max-w-2xl grid-cols-2 gap-3 sm:grid-cols-4">
             {highlights.map(({ label, icon: Icon }) => (
               <div

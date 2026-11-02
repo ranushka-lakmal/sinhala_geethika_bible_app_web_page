@@ -11,7 +11,7 @@ export function ContactSection() {
           <SectionHeading
             eyebrow="Contact & Support"
             title="Support for Google Play users"
-            description="For app questions, support requests, privacy policy updates, or Google Play review information, use the support contact below."
+            description="Have a question about the app or need help? Contact us using the support email listed on Google Play."
             align="left"
             tone="dark"
           />
@@ -42,8 +42,13 @@ export function ContactSection() {
                 aria-hidden="true"
               />
               <p>
-                Keep this support email and privacy policy link consistent with
-                your Google Play Store listing.
+                For information about app data and privacy, read our{" "}
+                <a
+                  href={siteConfig.privacyPolicyUrl}
+                  className="underline underline-offset-4 hover:text-[#ffe5aa]"
+                >
+                  Privacy Policy
+                </a>.
               </p>
             </div>
 

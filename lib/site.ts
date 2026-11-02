@@ -2,17 +2,17 @@ export const siteConfig = {
   appNameSinhala: "ගීතිකා සහ බයිබල් පද",
   appNameEnglish: "Geethika Bible Verses",
   appNameSinglish: "Geethika Saha Bible Pada",
-  siteUrl: "https://geethika-bible-verses.vercel.app", // TODO: Replace with your final Vercel/custom domain.
-  playStoreUrl: "#", // TODO: Replace with your real Google Play Store app URL.
-  privacyPolicyUrl: "/privacy", // TODO: For Play Console, use the full deployed URL, for example "https://your-domain.com/privacy".
-  supportEmail: "ranulakmal@gmail.com", // TODO: Replace with your real support email address.
+  siteUrl: "https://geethika-bible-verses.vercel.app",
+  playStoreUrl:
+    "https://play.google.com/store/apps/details?id=com.ranushka.sinhala_hymns_apps&pcampaignid=web_share",
+  privacyPolicyUrl: "https://www.sinhalabiblegeethika.online/privacy-policy",
+  supportEmail: "sinhalageethikasahabiblepada@gmail.com",
   heroImage: "/images/geethika-hero.png",
   screenshots: {
-    // TODO: Replace these null values with real image paths such as "/images/screenshots/home.png".
-    home: null,
-    hymns: null,
-    verse: null,
-    favourites: null
+    home: "/images/screenshots/play-store-1.png",
+    hymns: "/images/screenshots/play-store-5.png",
+    hymn: "/images/screenshots/play-store-4.png",
+    prayer: "/images/screenshots/play-store-2.png"
   }
 } as const;
 
@@ -78,24 +78,24 @@ export const previewScreens = [
     accent: "from-[#8d7cf6] to-[#d7ceff]"
   },
   {
-    key: "verse",
-    title: "Bible verse screen",
-    label: "බයිබල් පද",
+    key: "hymn",
+    title: "Hymn reading",
+    label: "Sinhala lyrics",
     accent: "from-[#4f9bbd] to-[#c7eef7]"
   },
   {
-    key: "favourites",
-    title: "Favourite screen",
-    label: "Saved songs & verses",
+    key: "prayer",
+    title: "Community prayer",
+    label: "Pray for one another",
     accent: "from-[#f29a87] to-[#ffd7c7]"
   }
 ] as const;
 
 export const faqs = [
   {
-    question: "Is this app free?",
+    question: "How can I install the Android app?",
     answer:
-      "Yes. The landing page is prepared for a free Google Play download link. Replace the placeholder with your final store URL when the app is published."
+      "Open the app's Google Play listing using any Google Play button on this website, then select Install on your compatible Android device. The app contains ads."
   },
   {
     question: "Does the app include Sinhala hymns?",
@@ -115,6 +115,6 @@ export const faqs = [
   {
     question: "Where can I download the app?",
     answer:
-      "Use the Google Play download button on this website. Replace the placeholder URL with your published Google Play Store link."
+      "Download Sinhala Hymns and Bible Quotes from Google Play. The Google Play buttons on this website open the official listing by Ranushka Lakmal Sankalpa."
   }
 ];

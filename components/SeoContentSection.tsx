@@ -2,8 +2,8 @@ import { CheckCircle2 } from "lucide-react";
 import { SectionHeading } from "@/components/SectionHeading";
 
 const keywordGroups = [
-  "Geethika, Sinhala Geethika, Sinhala Christian Songs, Sinhala Hymns",
-  "Bible Verses Sinhala, Bible Quotes Sinhala, Christian Lyrics Sinhala",
+  "Sinhala hymns and Christian song lyrics for worship and personal devotion.",
+  "Bible verses and daily encouragement to reflect on and share with loved ones.",
   "ගීතිකා, සිංහල ගීතිකා, බයිබල් පද, දේව වචනය, ක්‍රිස්තියානි ගීතිකා"
 ];
 
@@ -14,9 +14,9 @@ export function SeoContentSection() {
         <div className="rounded-lg bg-[#101828] p-6 text-white shadow-[0_30px_90px_rgba(16,24,40,0.24)] sm:p-8 lg:p-10">
           <div className="grid gap-10 lg:grid-cols-[1fr_0.9fr] lg:items-center">
             <SectionHeading
-              eyebrow="Search Visibility"
-              title="Built for Sinhala, English, and Singlish discovery"
-              description="This website includes natural SEO content so people searching for Sinhala Christian hymns, Bible verses, Christian lyrics, and daily spiritual encouragement can understand what the app offers."
+              eyebrow="Faith in everyday life"
+              title="Hymns, Scripture, and prayer in one place"
+              description="Prepare for worship, pause for a Bible verse, or pray with your community. Find Sinhala Christian content for the moments that matter to you."
               align="left"
               tone="dark"
             />

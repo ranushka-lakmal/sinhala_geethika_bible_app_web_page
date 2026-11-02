@@ -47,33 +47,20 @@ Open `http://localhost:3000`.
 npm run build
 ```
 
-## Deploy To Vercel
+## Production
 
-1. Push this project to GitHub.
-2. Go to Vercel and create a new project from the repository.
-3. Keep the default framework preset as `Next.js`.
-4. Use the default build command: `npm run build`.
-5. Deploy.
+- Website: https://geethika-bible-verses.vercel.app
+- GitHub: https://github.com/ranushka-lakmal/sinhala_geethika_bible_app_web_page
+- Google Play: https://play.google.com/store/apps/details?id=com.ranushka.sinhala_hymns_apps&pcampaignid=web_share
+- Published privacy policy: https://www.sinhalabiblegeethika.online/privacy-policy
+- Support: sinhalageethikasahabiblepada@gmail.com
 
-## Replace Production Values
+The Vercel project `geethika-bible-verses` is connected to this repository. Push to `main` to deploy production updates. For a manual deployment from a linked checkout, run `npx vercel --prod`.
 
-Update [lib/site.ts](lib/site.ts):
+## Site Configuration
 
-- `siteUrl`: replace with your final Vercel or custom domain.
-- `playStoreUrl`: replace `#` with your Google Play Store URL.
-- `privacyPolicyUrl`: defaults to `/privacy`; after deployment, use the full deployed URL in Google Play Console, for example `https://your-domain.com/privacy`.
-- `supportEmail`: replace `ranulakmal@gmail.com` if your support email changes.
-- `screenshots`: add real screenshot paths after placing images in `public/images/screenshots/`.
+Public URLs, the support email, screenshots, and FAQ content are centralized in [lib/site.ts](lib/site.ts). All Google Play buttons use the same official store link. The local `/privacy` route redirects to the published policy linked from Google Play.
 
-Example:
+The preview images in `public/images/screenshots/` are real screenshots downloaded from the official Google Play listing. The hero illustration remains at `public/images/geethika-hero.png`.
 
-```ts
-screenshots: {
-  home: "/images/screenshots/home.png",
-  hymns: "/images/screenshots/hymns.png",
-  verse: "/images/screenshots/verse.png",
-  favourites: "/images/screenshots/favourites.png"
-}
-```
-
-The generated hero image is saved at `public/images/geethika-hero.png`.
+After changing public content, run `npm run lint` and `npm run build` before deployment. Keep `siteUrl` aligned with the production domain so canonical metadata, social previews, robots.txt, and sitemap.xml use the correct origin.

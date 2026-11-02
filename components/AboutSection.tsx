@@ -12,7 +12,7 @@ const points = [
   },
   {
     icon: ShieldCheck,
-    text: "Designed as a trustworthy Google Play support website with clear contact and privacy links."
+    text: "Share prayer requests with a community of faith. Requests are reviewed before becoming public."
   }
 ];
 
